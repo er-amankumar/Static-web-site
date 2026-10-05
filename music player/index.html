@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+</head>
+
+<body class="bg-warning">
+    <div class="container-fluid">
+        <div class="row p-5">
+            <div class="col-sm-3 mx-auto shadow p-5 bg-white" style="border-radius: 30px;">
+                <img src="images/awaara.jpg" height="200px;" class="w-100" alt="" id="photo" style="border-radius: 50%;">
+                <audio
+                    src="a.m4a" id="song"></audio>
+                <div class="row mx-auto text-center">
+                    <div class="col-sm-4 "><i class="fa-solid fa-backward fs-5 mt-2" onclick="pre()"></i></div>
+                    <div class="col-sm-4" id="play"><i class="fa-solid fa-play fs-3 mt-2 " id="songbtn" onclick="playpause()"></i></div>
+                    <div class="col-sm-4"><i class="fa-solid fa-forward fs-5 mt-2" onclick="ne()"></i></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        var p=["images/awaara.jpg","images/a2.png","images/a4.jpg"];
+        var photo=document.getElementById("photo");
+        var song=document.getElementById("song");
+        var songbtn=document.getElementById("songbtn");
+        var songs=["a.m4a","b.m4a","c.mp3"];
+        var i=0;
+        function playpause(){
+            if(song.paused){
+            song.play();
+            songbtn.classList.add("fa-pause");
+            songbtn.classList.remove("fa-play");
+            }
+            else{
+                song.pause();
+                songbtn.classList.add("fa-play");
+                songbtn.classList.remove("fa-pause");
+            }
+            
+        }
+        function ne(){
+                i++;
+                if(songs.length==i){
+                    i=0;
+                }
+                song.src=songs[i];
+                song.play();
+                photo.src=p[i];
+                songbtn.classList.add("fa-pause");
+                songbtn.classList.remove("fa-play");
+                
+
+        }
+        function pre(){
+                //i=songs.length;
+                i--;
+                if(i==-1){
+                    i=songs.length-1;
+                }
+                song.src=songs[i];
+                photo.src=p[i];
+                song.play();
+                songbtn.classList.add("fa-pause");
+                songbtn.classList.remove("fa-play");
+                
+
+        }
+
+    </script>
+
+</body>
+
+</html>

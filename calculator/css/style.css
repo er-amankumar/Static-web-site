@@ -1,0 +1,24 @@
+#main{
+    margin: 0 auto;
+    margin-top: 13px;
+    height: 600px;
+    width: 500px;
+    border: 1px solid black;
+}
+#main input{
+    height:120px;
+    width: 495px;
+    //border: none;
+    text-align: center;
+    font-size: 35px;
+}
+.row{
+    height: 480px;
+    width: 100%;
+    background-color: lightgray;
+}
+.row button{
+    font-size: 40px;
+    width: 80px;
+    margin: 20px;
+}

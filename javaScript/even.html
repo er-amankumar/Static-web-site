@@ -1,0 +1,24 @@
+<html>
+<head>
+<script>
+function even(){
+//alert("hii");
+var num=+document.getElementById("n").value;
+//alert(num);
+if (num%2==0){
+//alert("even no.")
+document.getElementById("a").innerHTML="even no";
+}
+else{
+//alert("odd no.")
+document.getElementById("a").innerHTML="odd no";
+}
+}
+</script>
+</head>
+<Body>
+Enter a number 
+<input type="text" id="n"/><span id="a"></span>
+<input type="button" onclick="even()" value="click"/>
+</body>
+</html>

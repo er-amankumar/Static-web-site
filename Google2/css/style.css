@@ -1,0 +1,612 @@
+body{
+background-color:lightgrey;
+}
+#outer{
+height:1200px;
+width:1320px;
+border:1px solid lightgrey;
+margin:0px auto;
+	
+}
+#one{
+height:1150px;
+width:650px;
+//border:1px solid;
+margin-left:25px;
+margin-top:25px;
+float:left;
+	
+}
+#two{
+height:1150px;
+width:280px;
+//border:1px solid;
+margin-left:25px;
+margin-top:25px;
+float:left;
+	
+}
+#three{
+height:1150px;
+width:280px;
+//border:1px solid;
+margin-left:25px;
+margin-top:25px;
+float:left;
+	
+}
+#onet{
+height:450px;
+width:650px;
+border:1px solid white;
+//margin-left:25px;
+//margin-top:25px;
+//float:left;
+background-color:white;
+	
+}
+
+#onetL{
+height:450px;
+width:323px;
+border:1px solid white;
+margin-left:15px;
+//margin-top:25px;
+float:left;
+font-size:20px;	
+}
+#onetL h1{
+	margin-top:130px;
+	font-size:40px;
+}
+
+
+
+#onetR{
+height:450px;
+width:308px;
+border:1px solid white;
+//margin-left:25px;
+//margin-top:25px;
+float:left;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#oneb{
+height:671px;
+width:650px;
+//border:1px solid;
+//margin-left:25px;
+margin-top:25px;
+//float:left;
+	
+}
+.onebc{
+height:671px;
+width:310px;
+//border:1px solid;
+//margin-left:25px;
+//margin-top:25px;
+float:left;
+	
+}
+#onebR{
+height:671px;
+width:310px;
+//border:1px solid;
+margin-left:25px;
+//margin-top:25px;
+float:left;
+	
+}
+.onebL{
+height:300px;
+width:310px;
+border:1px solid rgb(206,72,61);
+//margin-left:25px;
+//margin-top:25px;
+//float:left;
+background-color:rgb(206,72,61);
+color:white;	
+}
+#one1img{
+	height:90px;
+	width:85px;
+	//border:1px solid;
+	border-radius:7px;
+	margin:0 auto;
+	margin-top:42px;
+	background-image:url('../images/blog.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	 
+	
+}
+#one1text{
+	height:120px;
+	width:310px;
+	//border:1px solid;
+	margin:0 auto;
+	margin-top:50px;
+	background-color:rgb(189,64,54);	
+}
+
+
+
+
+
+.onebLb{
+height:346px;
+width:310px;
+border:1px solid rgb(142,176,33);
+//margin-left:25px;
+margin-top:25px;
+//float:left;
+	background-color:rgb(142,176,33);
+	color:white;
+}
+
+#one2img{
+	height:130px;
+	width:150px;
+	//border:1px solid;
+	border-radius:7px;
+	margin:0 auto;
+	margin-top:50px;
+	background-image:url('../images/android.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	 
+	
+}
+#one2text{
+	height:115px;
+	width:310px;
+	//border:1px solid;
+	margin:0 auto;
+	margin-top:50px;
+	background-color:rgb(126,157,28);	
+}
+
+
+
+
+
+
+#onebRt{
+height:346px;
+width:310px;
+border:1px solid;
+margin-bottom:25px;
+margin-top:0px;
+//float:left;
+	background-color:rgb(121,48,42);
+}
+
+#one1Rimg{
+	height:130px;
+	width:150px;
+	//border:1px solid;
+	border-radius:7px;
+	margin:0 auto;
+	margin-top:50px;
+	background-image:url('../images/crome.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	 
+	
+}
+#one1Rtext{
+	height:115px;
+	width:310px;
+	//border:1px solid;
+	margin:0 auto;
+	margin-top:50px;
+	background-color:rgb(102,38,33);	
+}
+
+
+#one1RB{
+	background-color:rgb(255,208,6);
+	border:1px solid rgb(255,208,6);
+	
+}
+
+
+#one1RBimg{
+	height:110px;
+	width:120px;
+	//border:1px solid;
+	border-radius:7px;
+	margin:0 auto;
+	margin-top:42px;
+	background-image:url('../images/music.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	 
+	
+}
+#one1RBtext{
+	height:100px;
+	width:310px;
+	//border:1px solid;
+	margin:0 auto;
+	margin-top:50px;
+	background-color:rgb(235,192,9);	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#two1{
+height:350px;
+width:280px;
+border:1px solid rgb(171,203,214);
+//margin-left:25px;
+//margin-top:25px;
+//float:left;
+background-color:rgb(171,203,214);	
+color:white;
+}
+
+#two1img{
+	height:130px;
+	width:170px;
+	//border:1px solid;
+	border-radius:7px;
+	margin:0 auto;
+	margin-top:50px;
+	background-image:url('../images/gmail.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	 
+	
+}
+#two1text{
+	height:120px;
+	width:280px;
+	//border:1px solid;
+	margin:0 auto;
+	margin-top:50px;
+	background-color:rgb(140,190,207);	
+}
+
+
+
+
+
+
+
+
+
+#two2{
+height:200px;
+width:280px;
+border:1px solid rgb(123,193,161);
+//margin-left:25px;
+margin-top:25px;
+//float:left;
+	background-color:rgb(123,193,161);
+	color:white;
+}
+
+#two2img{
+height:70px;
+width:80px;
+border:1px solid;
+border-radius:7px;
+	margin:0 auto;
+	margin-top:15px;
+	background-image:url('../images/google-news.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	 
+}
+
+#two2text{
+	height:90px;
+	width:280px;
+	//border:1px solid;
+	margin:0 auto;
+	margin-top:15px;
+	background-color:rgb(94,185,144);	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#two3{
+height:550px;
+width:280px;
+border:1px solid;
+//margin-left:25px;
+margin-top:25px;
+//float:left;
+background-color:rgb(16,30,85);
+color:white;
+	
+}
+
+#two3img{
+height:120px;
+width:120px;
+border:1px solid;
+border-radius:7px;
+	margin:0 auto;
+	margin-top:100px;
+	background-image:url('../images/google-earth.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	 
+}
+
+#two3text{
+	height:150px;
+	width:280px;
+	//border:1px solid;
+	margin:0 auto;
+	margin-top:180px;
+	background-color:rgb(11,22,63);	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#three1{
+height:550px;
+width:280px;
+border:1px solid rgb(249,190,39);
+//margin-left:25px;
+//margin-top:25px;
+//float:left;
+	background-color:rgb(249,190,39);
+	color:white;
+}
+
+#three1img{
+height:120px;
+width:120px;
+border:1px solid;
+border-radius:7px;
+	margin:0 auto;
+	margin-top:100px;
+	background-image:url('../images/map.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	 
+}
+
+#three1text{
+	height:150px;
+	width:280px;
+	//border:1px solid;
+	margin:0 auto;
+	margin-top:180px;
+	background-color:rgb(242,181,28);	
+}
+
+
+
+
+
+
+
+
+
+
+#three2{
+height:350px;
+width:280px;
+border:1px solid;
+//margin-left:25px;
+margin-top:25px;
+//float:left;
+background-color:rgb(42,112,232);
+color:white;	
+}
+
+#three2img{
+	height:130px;
+	width:170px;
+	//border:1px solid;
+	border-radius:7px;
+	margin:0 auto;
+	margin-top:50px;
+	background-image:url('../images/search.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	 
+	
+}
+#three2text{
+	height:120px;
+	width:280px;
+	//border:1px solid;
+	margin:0 auto;
+	margin-top:50px;
+	background-color:rgb(9,87,219);	
+}
+
+
+
+
+
+
+
+
+
+#three3{
+height:200px;
+width:280px;
+border:1px solid rgb(43,36,35);
+//margin-left:25px;
+margin-top:25px;
+//float:left;
+	color:white;
+	background-color:rgb(43,36,35);
+}
+
+#three3img{
+height:70px;
+width:80px;
+border:1px solid;
+border-radius:7px;
+	margin:0 auto;
+	margin-top:15px;
+	background-image:url('../images/youtube.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	 
+}
+
+#three3text{
+	height:95px;
+	width:280px;
+	//border:1px solid;
+	margin:0 auto;
+	margin-top:15px;
+	background-color:rgb(21,17,17);	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////// hover //////////////
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

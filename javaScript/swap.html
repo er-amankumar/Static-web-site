@@ -1,0 +1,25 @@
+<html>
+<head>
+<script>
+function ch(){
+//window.alert("hi")
+var t1=document.getElementById("h1").innerHTML;
+var t2=document.getElementById("h4").innerHTML;
+var t3=window.confirm("Do u want to SWAP");
+if (t3==true){
+document.getElementById("h1").innerHTML=t2;
+document.getElementById("h4").innerHTML=t1;
+}
+else{
+alert("You r Cancil ");
+}
+}
+
+</script>
+</head>
+<body>
+<h1 id="h1">softpro india</h1>
+<h4 id="h4">Aman kumar</h4>
+<input type="button" value="SWAP" onclick="ch()"/>
+</body>
+</html?

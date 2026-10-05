@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+#slider{
+height:250px;
+width:1000px;
+border:1px solid ;
+margin:30px auto;
+//margin-top:30px;
+
+}
+</style>
+<script>
+var img=["01.jpg","02.jpg","03.jpg"];
+var i=0;
+function slide(){
+//alert("Hi");
+var div=document.getElementById("slider");
+//alert(div);
+div.style.backgroundImage="url('images/"+img[i]+"')";
+i++;
+if (img.length==i){
+i=0;
+}
+window.setTimeout("slide()",3000);
+
+
+
+
+
+}
+</script>
+
+</head>
+<body onload="slide()">
+<div id="slider"></div>
+</body>
+</html>

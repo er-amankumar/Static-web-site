@@ -1,0 +1,26 @@
+#aboutus
+{
+    height: 400px;
+background-image: url('../images/about.jpg');
+background-size: cover;
+
+}
+.mycard{
+    transition: 0.5s ease;
+}
+
+.mycard:hover{
+    margin-top: -20px;
+}
+.zoom-in div{
+    overflow: hidden;
+}
+.zoom-in img{
+    transition: 0.3s ease;
+}
+
+.zoom-in:hover img{
+    transform: scale(1.5);
+}
+
+

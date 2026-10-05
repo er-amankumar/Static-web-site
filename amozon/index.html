@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amozon</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        function tprice(){
+            //alert("hi");
+            var p = document.getElementById("price").innerHTML;
+            //alert(p);
+            var v=document.getElementById("select").value;
+           // alert(v);
+            document.getElementById("total").innerHTML=p*v;
+        }
+
+    </script>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- nav start -->
+        <div class="row bg-dark text-white ">
+             <div class="col-sm-1 ms-0">
+                <img src="images/a.jpg" alt="" height="50px;"><span></span>
+             </div>
+             <div class="col-sm-2 ms-3">
+                <span class="fs-0  fb-bold" style="font-size:11px;">Delivering to Lucknow 226003</span>
+                <p><i class="fa-solid fa-location-dot bold "></i> Update location</p>
+             </div>
+             <div class="col-sm-5 text-center">
+                <select name="" id="" class="m-0 p-2 mt-3" style="border: none; background-color: rgb(230,230,230);">
+                    <option value="">Eletranics</option>
+                    <option value="">Device</option>
+                    <option value="">Cloths</option>
+                </select>
+                <input type="search " class="p-2" style="height: 40px; width: 300px; margin: -5px; border: none outer:none;" placeholder=" Search Amazon.in" class="m-0">
+                <button class="m-0 p-2" style="border: none; background-color: rgb(254,189,105);"><i class="fa-solid fa-magnifying-glass"></i></button>
+             </div>
+             <div class="col-sm-3 ms-0 ">
+                <div class="row">
+                    <div class="col-sm-2">
+                <select name="" id="" class="mt-4">
+                    <option value="">🇮🇳 EN</option>
+                    <option value="">🇮🇳 EN</option>
+                    <option value="">🇮🇳 EN</option>
+                </select>
+                 </div>
+                 <div class="col-sm-3 ms-3"> 
+                <span style="font-size: 11px;">Hello sign in</span>
+                <select name="" id="" class="fw-bold " style="font-size: 14px;" >
+                    <option value="">Account & Lists</option>
+                </select>
+            </div>
+            <div class="col-sm-2 ms-5">
+                <span style="font-size: 11px;" class="ms-3"> Return</span>
+                <p style="font-size: 12px; font-weight: 900;" class="ms-3">& Orders</p>
+            </div>
+            <div class="col-sm-2 ms-3">
+                <i class="fa-solid fa-cart-plus fs-1 mt-3 ms-3"></i><span class="fw-bold ms-5">Cart</span>
+            </div>
+        </div>
+             </div>
+        </div>
+
+        <div class="row text-white p-2 " style="background-color: rgb(35,47,62);">
+            <div class="col-sm-12 ">
+            <span class="ms-3"><i class="fa-solid fa-bars"></i> <a href=""> All</a></span>
+            <span class="ms-3"><a href="#" >Fresh</a></span>
+            <span class="ms-3"><a href="#">Amazon mini tv </a></span>
+            <span class="ms-3"><a href="#">Sell </a></span>
+            <span class="ms-3"><a href="#"> Best Sell </a></span>
+            <span class="ms-3"><a href="#"> Today's deal </a></span>
+            <span class="ms-3"><a href="#"> Mobiles </a></span>
+            <span class="ms-3"><a href="#"> Customer Service </a></span>
+            <span class="ms-3"><a href="#"> New</a></span>
+            <span class="ms-3"><a href="#"> New Release </a></span>
+            <span class="ms-3"><a href="#"> Fashion </a></span>
+            <span class="ms-3"><a href="#"> Home & kitchen </a></span>
+            <span class="ms-3"><a href="#"> Amazon Pay </a></span>
+            
+        </div>
+        </div>
+        <!-- nav end -->
+        <!-- item start -->
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/1.jpg" alt="">
+            </div>
+            <div class="col-sm-5 mt-5 fs-5 ms-5">
+                <p>soundcore By Anker,Space One Active Noise Cancelling Bluetooth Over 
+                    Ear Headphones With Travel Pouch,2X Stronger Voice Reduction,40H Anc Playtime
+                    ,App Control,Ldac Hi-Res,Ergo Design For Comfort Fit</p>
+                <p class="text-success">Visit the soundcore Store</p>
+                <p>4.1 &#9733; &#9733; &#9733; &#9733; &#9733; <a href="#" id="rating">  61,977 ratings | Search this page</a></p>
+                    <span style="font-size: 11px; background-color: black; padding: 5px; color: white;">Amazon's
+                        Choice</span>
+                        <hr>
+                        <button class="bg-danger fs-5">Limited time deal</button><br>
+                        <span class="text-danger">-31%</span>
+                        <span class="fs-3">₹</span>
+                        <span class="fs-3" id="price">8999</span>
+                        <br> <span> M.R.P <s>12999</s></span>
+                        <hr>
+            </div>
+
+            <div class="col-sm-2 ms-4 border border-dark mt-5">
+                <span class="fs-5">  ₹ </span>
+                  <h1 id="total"> 8999</h1>
+                <p><span class="text-success">FREE delivery</span><b> Friday, 6 <br> September.</b> Order within <span class="text-success"> 15 hrs 39 mins. Details </span></p>
+                <p><i class="fa-solid fa-location-dot"></i>
+                    Delivering to Lucknow 226003 - Update location
+                    </p> 
+                    <h4>In stock</h4>  
+                    <div class="row">
+                    <div class="col-6">
+                        <span>
+                            Payment <br>Ships from <br> sold by
+                        </span>
+                    </div>
+                    <div class="col-sm-6">
+                        <span>
+                            
+                            Secure transaction <br> Amazon <br> Aker india
+                        </span>
+                    </div>
+                    <span>Quantity: 
+                     
+                    <select name="" id="select" onchange="tprice()">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </span>
+                <button class="btn btn-warning border border-radius">Add to Cart</button>
+                <button class=" btn btn-warning border border-radius">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- item end -->
+
+
+    </div>
+</body>
+</html>

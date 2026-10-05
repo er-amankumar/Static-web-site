@@ -1,0 +1,130 @@
+<html>
+<head>
+<script>
+function age(){
+//alert("Hi");
+ var day=document.getElementById("day").value;
+ var month=document.getElementById("month").value;
+ var year=document.getElementById("year").value;
+ //alert(day);
+ //alert(month);
+ //alert(year);
+ cday=01;
+ cmonth=09;
+ cyear=2024;
+ //if (cday>=day && cmonth>=month && cyear>=year){
+ if (cday>=day){
+ day=cday-day;
+ //alert(day);
+ }
+ else {
+ day=cday+30-day;
+ cmonth=cmonth-1;
+ }
+ if (cmonth>=month){
+ month=cmonth-month;
+ }
+ else {
+ month=cmonth+12-month;
+ cyear=cyear-1;
+ }
+ if (cyear>=year){
+ year=cyear-year;
+ 
+ }
+ //}
+ //else{
+ //alert("your DOB is incurrect ! ");
+ //}
+ document.getElementById("h1").innerHTML=day+"/ "+month+" /"+year;
+ if (day==0 && month==0){
+ alert("congratulatio bro today is your birthday ..");
+ }
+  
+ 
+}
+</script>
+</head>
+<body>
+Enter Dob
+<select id="day">
+day <option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+<option>13</option>
+<option>14</option>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
+<option>25</option>
+<option>26</option>
+<option>27</option>
+<option>28</option>
+<option>29</option>
+<option>30</option>
+
+</select>
+<select id="month">
+month 
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+</select>
+<select id="year">
+year
+<option>2001</option>
+<option>2002</option>
+<option>2003</option>
+<option>2004</option>
+<option>2005</option>
+<option>2006</option>
+<option>2007</option>
+<option>2008</option>
+<option>2009</option>
+<option>2010</option>
+<option>2011</option>
+<option>2012</option>
+<option>2013</option>
+<option>2014</option>
+<option>2015</option>
+<option>2016</option>
+<option>2017</option>
+<option>2018</option>
+<option>2019</option>
+<option>2020</option>
+<option>2021</option>
+<option>2022</option>
+<option>2023</option>
+<option>2024</option>
+
+</select>
+<input type="button" value="check your age" onclick="age()"/>
+<h1 id="h1"></h1>
+
+</body>
+</html>

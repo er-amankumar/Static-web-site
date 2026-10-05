@@ -1,0 +1,77 @@
+<html>
+<head>
+<script>
+function req(){
+//alert("hii");
+var first=document.getElementById("f").value;
+var last=document.getElementById("L").value;
+var fName=document.getElementById("father").value;
+var mName=document.getElementById("mother").value;
+if (first==""){
+document.getElementById("first").innerHTML="Invalid name";
+document.getElementById("first").style.color="red";
+}
+else{
+document.getElementById("first").innerHTML="";
+document.getElementById("first").style.color="";
+}
+
+ if (last==""){
+document.getElementById("last").innerHTML="Invalid name";
+document.getElementById("last").style.color="red";
+}
+else{
+document.getElementById("last").innerHTML="";
+document.getElementById("last").style.color="";
+}
+
+
+ if (fName==""){
+document.getElementById("fname").innerHTML="Invalid name";
+document.getElementById("fname").style.color="red";
+}
+else{
+document.getElementById("fname").innerHTML="";
+document.getElementById("fname").style.color="";
+}
+ if (mName==""){
+document.getElementById("mname").innerHTML="Invalid name";
+document.getElementById("mname").style.color="red";
+}
+else{
+document.getElementById("mname").innerHTML="";
+document.getElementById("mname").style.color="";
+}
+
+
+}
+
+</script>
+
+</head>
+<body>
+<table>
+<tr>
+<td> Enter First name</td>
+<td><input type="text" id="f"/></td>
+<td><span id="first"></span></td>
+</tr>
+<tr>
+<td> Enter Last name</td>
+<td><input type="text" id="L"/></td>
+<td><span id="last"></span></td>
+</tr>
+<tr>
+<td> Enter Father's name</td>
+<td><input type="text" id="father"/></td>
+<td><span id="fname"></span></td>
+</tr>
+<tr>
+<td> Enter Mother's name</td>
+<td><input type="text" id="mother"/></td>
+<td><span id="mname"></span></td>
+</tr>
+</table>
+<input type="button" value="submit" onkeypress="req()"/>
+</body>
+</html>

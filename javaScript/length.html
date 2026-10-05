@@ -1,0 +1,84 @@
+<html>
+<head>
+<script>
+function req(){
+//alert("hii");
+var first=document.getElementById("f").value;
+
+
+
+if (first.length !=10){
+document.getElementById("first").innerHTML="Invalid mobile no";
+document.getElementById("first").style.color="red";
+}
+else{
+document.getElementById("first").innerHTML="";
+document.getElementById("first").style.color="red";
+}
+}
+function req2(){
+var last=document.getElementById("L").value;
+  if (last.length !=10){
+document.getElementById("last").innerHTML="Invalid mobile no";
+document.getElementById("last").style.color="red";
+}
+
+else{
+document.getElementById("last").innerHTML="";
+document.getElementById("last").style.color="red";
+}
+}
+function req3(){
+var fName=document.getElementById("father").value;
+ if (fName.length !=6){
+document.getElementById("fname").innerHTML="Invalid pin code";
+document.getElementById("fname").style.color="red";
+}
+else{
+document.getElementById("fname").innerHTML="";
+document.getElementById("fname").style.color="red";
+}
+}
+function req4(){
+var mName=document.getElementById("mother").value;
+  if (mName.length !=10){
+document.getElementById("mname").innerHTML="Invalid DOB";
+document.getElementById("mname").style.color="red";
+}
+else{
+document.getElementById("mname").innerHTML="";
+document.getElementById("mname").style.color="red";
+}
+
+
+}
+
+</script>
+
+</head>
+<body>
+<table>
+<tr>
+<td> Enter First Mobile no </td>
+<td><input type="text" id="f" onkeyup="req()"/></td>
+<td><span id="first"> </span></td>
+</tr>
+<tr>
+<td> Enter second mobile no. </td>
+<td><input type="text" id="L" onkeyup="req2()"/></td>
+<td><span id="last"></span></td>
+</tr>
+<tr>
+<td> Enter pin code</td>
+<td><input type="text" id="father" onkeyup="req3()"/></td>
+<td><span id="fname"></span></td>
+</tr>
+<tr>
+<td> Enter DOB</td>
+<td><input type="text" id="mother" onkeyup="req4()"/></td>
+<td><span id="mname"></span></td>
+</tr>
+</table>
+ 
+</body>
+</html>

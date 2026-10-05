@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        function c(){
+            //window.alert("hi");
+            var num=document.getElementById("a").innerHTML;
+            window.alert(num);
+              var n=document.getElementsByTagName("button").textContent;
+                  window.alert(n);
+                  console.log(n);
+        }
+         
+
+    </script>
+</head>
+<body>
+    <div id="main">
+        <input type="text">
+        <div class="row">
+            <button id="a" onclick="c()">AC</button>
+            <button id="a2" onclick="c()">%</button>
+            <button id="a3" onclick="c()">÷</button>
+            <button onclick="c()"><i class="fa-solid fa-delete-left"></i></button>
+            <button onclick="c()">7</button>
+            <button onclick="c()">8</button>
+            <button onclick="c()">9</button>
+            <button onclick="c()">+</button>
+            <button onclick="c()">4</button>
+            <button onclick="c()">5</button>
+            <button onclick="c()">6</button>
+            <button onclick="c()">-</button>
+            <button onclick="c()">1</button>
+            <button onclick="c()">2</button>
+            <button onclick="c()">3</button>
+            <button onclick="c()">/</button>
+            <button onclick="c()">.</button>
+            <button onclick="c()">0</button>
+            <button onclick="c()">=</button>
+            <button onclick="c()">x</button>
+
+        </div>
+    </div>
+    <!-- <input type="button" value="button" onclick="c()"/> -->
+</body>
+</html>

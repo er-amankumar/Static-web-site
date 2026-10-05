@@ -1,0 +1,28 @@
+<html>
+<head>
+<script>
+function rev(){
+//alert("hii hii");
+var num=+document.getElementById("rev").value;
+document.getElementById("num")
+var reverse=""
+while (num>0){
+var n=num%10;
+num=parseInt(num/10);
+reverse+=n;
+document.getElementById("sp").innerHTML=reverse;
+}
+
+
+}
+</script>
+
+<head>
+
+<body>
+<input type="text" id="rev"><span id="sp"></span>
+<br>
+<input type="button" value="Reverse" onclick="rev()">
+
+</body>
+</html>

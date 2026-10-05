@@ -1,0 +1,27 @@
+<html>
+<head>
+<script>
+function ch(){
+var p=document.getElementById("h1").innerHTML;
+var q=document.getElementById("select").value;
+document.getElementById("h2").innerHTML=p*q;
+
+
+}
+
+</script>
+</head>
+<body>
+price
+<h1 id="h1">1560</h1>
+quantity
+<select id="select" onchange="ch()">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+</select><br/><br/>
+total price <h2 id="h2">1560</h2>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+.col-sm-12 span a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+     
+    
+
+}
+.col-sm-12 span:hover{
+    border: 2px solid white;
+}
+#rating{
+    text-decoration: none;
+    color: green;
+    font-size: 14px;
+}

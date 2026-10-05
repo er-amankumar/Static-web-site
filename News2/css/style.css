@@ -1,0 +1,65 @@
+#outer{
+height:1800px;
+width:1300px;
+margin:0 auto;
+border:1px solid;
+
+
+}
+#outer h1{
+	text-align:right;
+	margin-top:60px;
+	margin-right:15px;
+	
+	
+	
+}
+
+#one{
+	height:130px;
+	width:1300px;
+	border:1px solid white;
+}
+
+
+
+
+
+
+#one span{
+	text-align:center;
+	 
+	font-size:70px;
+	margin-left:20px;
+	margin-top:150px;
+	
+}
+
+
+
+#oneL{
+	height:130px;
+	width:500px;
+	border:1px solid white;
+	float:left;
+	background-color:aqua;
+	
+}
+
+#oneL h1{
+	font-size:110px;
+	color:white;
+	
+	margin-top:-2px; 
+	text-align:right;
+}
+
+
+
+#oneR{
+	height:130px;
+	width:500px;
+	border:1px solid white;
+	float:right;
+	background-color:aqua;
+}
